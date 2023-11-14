@@ -42,7 +42,6 @@ void	ft_stop(t_p *p)
 	if (p->args.stop == 2)
 		printf("Each philosopher ate %d time(s)\n", p->args.meal_eat);
 	free(p->ph);
-
 }
 
 int	main(int argc, char **argv)
